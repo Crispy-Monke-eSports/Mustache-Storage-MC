@@ -1,0 +1,7 @@
+pack_directory = "./MustacheStorage"
+
+['LICENSE.txt']
+force_include = true
+
+['links.txt']
+force_include = true

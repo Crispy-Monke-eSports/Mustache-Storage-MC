@@ -12,7 +12,7 @@ Best used with Faithful 32x installed aswell! **However** this resource pack nee
 Well why not? Give Minecraft some personality and show your family and friends your Minecraft chests are fancier than theirs.
 
 ## Download
-[<img src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/modrinth_vector.svg">](https://modrinth.com/resourcepack/mustache-storage/) [<img src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/curseforge_vector.svg">](https://legacy.curseforge.com/minecraft/texture-packs/mustache-storage) 
+[<img src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/modrinth_vector.svg">](https://modrinth.com/resourcepack/mustache-storage/) [<img src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/curseforge_vector.svg">](https://www.curseforge.com/minecraft/texture-packs/mustache-storage) 
 
 ## Photos 📸
 

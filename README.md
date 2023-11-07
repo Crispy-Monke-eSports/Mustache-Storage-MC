@@ -1,5 +1,8 @@
 # Mustache Storage
 
+[![Optimize Resource Pack](https://github.com/Bjorkan/Mustache-Storage-MC/actions/workflows/optimize.yml/badge.svg)](https://github.com/Bjorkan/Mustache-Storage-MC/actions/workflows/optimize.yml)  [![Publish new release](https://github.com/Bjorkan/Mustache-Storage-MC/actions/workflows/publish.yml/badge.svg)](https://github.com/Bjorkan/Mustache-Storage-MC/actions/workflows/publish.yml)
+
+
 The pack adds a mustache to the single- and double chest. More storage blocks like dispensers may follow, but we will see!
 
 Best used with Faithful 32x installed aswell! **However** this resource pack needs to be placed above Faithful in the resource pack list to be displayed in-game!

@@ -5,15 +5,11 @@ on:
   release:
     types: [published]
 
-  # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
-
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
 
-
-  Optimize:  # This workflow contains a single job called "build"
-    name: Optimize resource pack
+  build:  # This workflow contains a single job called "build"
+    name: Create Resource Pack
     runs-on: ubuntu-latest
     steps:
       - name: Clone repository
@@ -26,10 +22,10 @@ jobs:
           packsquash_version: latest # Uses the latest PackSquash release supported by the action
           options: "./PackSquash-options.toml"
 
-  Publish:
+  publish:
     name: Publish to Modrinth and Curseforge
     runs-on: ubuntu-latest
-    needs: Optimize
+    needs: build
     steps:
       - name: Download artifact
         uses: actions/download-artifact@v3

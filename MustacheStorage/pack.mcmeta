@@ -1,6 +1,9 @@
 {
   "pack": {
-    "pack_format": 26,
     "description": "Adds mustaches to certain storage blocks. Based on Faithful 32x32"
+    "supported_formats": {
+      "min_inclusive": 5,
+      "max_inclusive": 22
+    }
   }
 }

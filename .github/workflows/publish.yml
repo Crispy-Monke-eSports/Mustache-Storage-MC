@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Clone repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0 # A non-shallow repository clone is required
       - name: Run PackSquash
@@ -28,7 +28,7 @@ jobs:
     needs: build
     steps:
       - name: Download artifact
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4
         with:
           name: Optimized pack
       - name: Test artifact download
@@ -49,9 +49,9 @@ jobs:
           files: MustacheStorage${{ github.event.release.tag_name }}.zip
 
           game-versions: |
-            1.20.3
-            1.20.4
-          
+            
+            >=1.13
+          game-version-filter: releases
           loaders: minecraft
 
           dependencies: faithful(optional){modrinth:w0TnApzs}{curseforge:436482}

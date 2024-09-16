@@ -4,7 +4,7 @@
     "description": "Adds mustaches to certain storage blocks. Based on Faithful 32x32",
     "supported_formats": {
       "min_inclusive": 4,
-      "max_inclusive": 41
+      "max_inclusive": 48
     }
   }
 }

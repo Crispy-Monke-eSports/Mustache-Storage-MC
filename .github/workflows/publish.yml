@@ -39,7 +39,7 @@ jobs:
         run: mv pack.zip MustacheStorage${{ github.event.release.tag_name }}.zip
       - name: Test rename
         run: ls -R
-      - uses: Kir-Antipov/mc-publish@v3.3
+      - uses: Kira-NT/mc-publish@v3.3.1
         name: Publish to Modrinth and Curseforge
         with:
           modrinth-id: gGQKxqx3

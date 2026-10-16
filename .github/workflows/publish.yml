@@ -16,10 +16,12 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0 # A non-shallow repository clone is required
+      - name: Validate supported resource-pack formats and textures
+        run: python3 scripts/validate_resource_pack.py
       - name: Run PackSquash
         uses: ComunidadAylas/PackSquash-action@v4
         with:
-          packsquash_version: latest # Uses the latest PackSquash release supported by the action
+          packsquash_version: latest-unstable # Supports modern min_format/max_format metadata until the next stable PackSquash release
           options: "./PackSquash-options.toml"
 
   publish:
@@ -50,7 +52,7 @@ jobs:
 
           game-versions: |
             
-            >=1.13
+            >=1.13 <=26.3
           game-version-filter: releases
           loaders: minecraft
 
